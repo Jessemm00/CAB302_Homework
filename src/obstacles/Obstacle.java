@@ -4,7 +4,7 @@ package obstacles;
  * Represents an obstacle that can block some locations on the map,
  * and has a representative symbol
  */
-public interface obstacle {
+public interface Obstacle {
     /**
      * Returns the symbol that represents the obstacle on the map
      * @return The symbol that represents the obstacle on the map

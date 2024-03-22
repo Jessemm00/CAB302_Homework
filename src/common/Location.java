@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Represents a location on the map.
  */
-public class location {
+public class Location {
     private final int x;
     private final int y;
 
@@ -14,7 +14,7 @@ public class location {
      * @param x The x coordinate
      * @param y The y coordinate
      */
-    public location(int x, int y) {
+    public Location(int x, int y) {
         this.x = x;
         this.y = y;
     }
